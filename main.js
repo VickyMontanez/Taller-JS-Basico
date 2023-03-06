@@ -9,6 +9,7 @@ console.table(tablanota);
 let nota ={};
 let metodo = 0;
 metodo=prompt("Escoge tu tipo de calificación (1-3): 1.Tradicional 2.Point-Range 3.Letras");
+let mensaje;
    if (metodo == 1){
       console.log("Haz escogido el Metodo Tradicional")
       nota= prompt("¿Cuál es tu nota? (%)")
